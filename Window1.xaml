@@ -1,0 +1,17 @@
+<Window x:Class="VirtualGrid.Window1"
+                             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                             xmlns:Interactivity="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                             xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+        xmlns:virtualgrid="clr-namespace:VirtualGrid"
+        Icon="App.ico" 
+                             >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <virtualgrid:ExcelGrid x:Name="grid" syncfusion:GridTooltipService.ShowTooltips="True"/>
+        </ScrollViewer>
+    </Grid>
+</Window>
