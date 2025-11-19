@@ -1,4 +1,4 @@
-# Row and column header highlighting based on selection in WPF GridControl
+# How to Highlighting Row and Column Header Based on Selection in WPF GridControl?
 
 This sample shows row and column header highlighting based on selection in [WPF GridControl](https://help.syncfusion.com/wpf/gridcontrol/overview).
 
@@ -24,3 +24,5 @@ class ExcelGrid : GridControl
     private Brush excelOrange = new SolidColorBrush(Color.FromRgb(244, 198, 111));
 }
 ```
+
+![GridControl with Highlighting row and column header](RowAndColumnHeaderHighlighted.png)
