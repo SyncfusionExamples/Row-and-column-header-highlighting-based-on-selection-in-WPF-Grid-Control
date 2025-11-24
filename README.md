@@ -1,6 +1,6 @@
 # How to Highlighting Row and Column Header Based on Selection in WPF GridControl?
 
-This sample shows row and column header highlighting based on selection in [WPF GridControl](https://help.syncfusion.com/wpf/gridcontrol/overview).
+This sample shows row and column header highlighting based on selection in [WPF GridControl](https://www.syncfusion.com/wpf-controls/excel-like-grid).
 
 In Excel, whenever a selection is made, the headers of those rows and columns which are involved in the selection will be highlighted. You can get a similar behavior in the Grid by overriding the [OnPrepareRenderCell](https://help.syncfusion.com/cr/wpf/Syncfusion.Windows.Controls.Grid.GridControlBase.html#Syncfusion_Windows_Controls_Grid_GridControlBase_OnPrepareRenderCell_Syncfusion_Windows_Controls_Grid_GridPrepareRenderCellEventArgs_) method.
 
